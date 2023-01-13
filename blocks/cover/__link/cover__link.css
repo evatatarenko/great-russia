@@ -1,0 +1,32 @@
+.cover__link{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(42, 44, 47, 0.3);
+    padding: 245px 312px 245px 312px;
+}
+
+.cover__link:hover{
+background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px){
+    .cover__link{
+   padding:195px 232px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__link{
+   padding:115px 104px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover__link{
+   padding:33px 16px;
+    }
+}
