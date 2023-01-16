@@ -1,7 +1,6 @@
 .lead__subtitle{
 margin: 32px 172px 0 172px;
 max-width: 640px;
-max-height: 72px;
 font-weight: 400;
 font-size: 30px;
 line-height: 1.2;
@@ -28,6 +27,5 @@ color: #FFFFFF;
         font-size: 16px;
         line-height: 1.25;
         max-width: 288px;
-        max-height: 40px;
         }
 }

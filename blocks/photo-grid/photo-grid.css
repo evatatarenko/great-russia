@@ -1,7 +1,6 @@
 .photo-grid{
     margin: 92px 48px 0 48px;
     max-width: 1184px;
-    max-height: 671px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -14,7 +13,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 14px;
-    max-height: 942px;
     }
 }
 
@@ -26,7 +24,6 @@
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
-    max-height: 1664px;
     }
 }
 
@@ -37,6 +34,5 @@
     grid-template-columns: 1fr;
     grid-template-rows:repeat(12,1fr);
     grid-gap: 12px;
-    max-height: 2724px;
     }
 }
