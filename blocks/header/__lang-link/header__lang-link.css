@@ -1,29 +1,5 @@
 .header__lang-link{
-max-width:29px;
-display: flex;
-flex-direction:row;
-gap: 18px;
-margin: 2px 0 0 931px;
-align-self: center;
-}
-
-@media screen and (max-width: 1024px){
-    .header__lang-link{
-   margin: 18px 0 0 675px;
-    }
-    }
-
-@media screen and (max-width: 768px){
-    .header__lang-link{
-    margin: 18px 0 0 467px;
-    font-size: 24px;
-     }
-    }
-
-@media screen and (max-width: 320px){
-        .header__lang-link{
-        margin: 14px 0 0 84px;
-        font-size: 18px;
-        max-width: 22px;
-         }
-        }
+    color: #FFFFFF;
+    max-width:29px;
+    text-decoration: none;
+ }
