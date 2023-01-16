@@ -21,7 +21,7 @@
     .photo-grid{
     margin: 88px 24px 0 24px;
     max-width: 720px;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     }

@@ -2,8 +2,8 @@
  margin: 92px 148px 0 148px;
  max-width:984px;
  display: flex;
- flex-direction: row; 
- flex-wrap: wrap;  
+ flex-direction: row;
+ flex-wrap: wrap;
  row-gap: 80px;
 }
 
