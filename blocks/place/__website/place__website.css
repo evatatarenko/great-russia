@@ -1,28 +1,35 @@
-.place__website{
+.place__website {
   grid-row-start: 1;
   grid-row-end: 1;
   display: grid;
   row-gap: 12px;
   align-items: flex-end;
   grid-template-rows: 1fr;
-  margin-top:106px;
+  margin-top: 106px;
 }
 
-.place__website:hover{
+.place__website:hover {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 768px){
-  .place__website{
-      margin-top:46px;
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-top: 46px;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .place__website {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin: 0;
+
   }
 }
 
 
-@media screen and (max-width: 320px){
-  .place__website{
-    grid-row-start: 2;
-  grid-row-end: 2;
-  margin: 0 16px 0 16px;
+@media screen and (max-width: 340px) {
+  .place__website {
+    margin: 0 16px 0 16px;
   }
 }

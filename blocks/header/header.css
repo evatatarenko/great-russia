@@ -1,7 +1,9 @@
 .header{
-max-width: 1184px;
+max-width: 1280px;
 display: flex;
 flex-direction: row;
+padding: 0;
+justify-content: space-between;
 margin: 28px 48px 0 48px;
 }
 
@@ -13,12 +15,13 @@ max-width: 928px;
 
 @media screen and (max-width: 768px){
     .header{
-    max-width: 720px;
+    width: calc(100% - 24px*2);
     margin: 28px 24px 0 24px;
     }
     }
 
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 340px){
     .header{
     max-width: 288px;
     margin: 16px 16px 0 16px;
