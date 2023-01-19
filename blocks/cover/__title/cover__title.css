@@ -1,48 +1,62 @@
-.cover__title{
+.cover__title {
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
   margin: 0 auto;
   max-width: 560px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin: 0;
   }
-  @media screen and (max-width: 1024px){
-    .cover__title{
-   margin: 0;
-    }
+}
+
+@media screen and (max-width: 969px) {
+  .cover__title {
+    font-size: 65px;
   }
+}
 
-  @media screen and (max-width: 969px){
-    .cover__title{
-   font-size:65px;
-    }
+@media screen and (max-width: 920px) {
+  .cover__title {
+    font-size: 58px;
   }
+}
 
-  @media screen and (max-width: 920px){
-    .cover__title{
-   font-size:58px;
-    }
+@media screen and (max-width: 872px) {
+  .cover__title {
+    font-size: 52px;
   }
+}
 
-  @media screen and (max-width: 872px){
-    .cover__title{
-   font-size:52px;
-    }
+@media screen and (max-width: 800px) {
+  .cover__title {
+    font-size: 45px;
   }
+}
 
-  @media screen and (max-width: 800px){
-    .cover__title{
-   font-size:45px;
-    }
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 72px;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 250px;
 
 
-  @media screen and (max-width: 500px){
-    .cover__title{
-      font-size: 32px;
-      line-height: 1.09;
-      max-width: 250px;
-
-
-    }
   }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+   max-width: 255px;
+
+
+  }
+}

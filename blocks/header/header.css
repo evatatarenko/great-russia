@@ -5,6 +5,7 @@ flex-direction: row;
 padding: 0;
 justify-content: space-between;
 margin: 28px 48px 0 48px;
+column-gap: 84px;
 }
 
 @media screen and (max-width: 1024px){

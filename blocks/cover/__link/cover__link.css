@@ -1,65 +1,69 @@
-.cover__link{
+.cover__link {
     text-decoration: none;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:rgba(42, 44, 47, 0.3);
-    padding:245px 312px 245px 312px;
+    background: rgba(42, 44, 47, 0.3);
+    padding: 245px 312px 245px 312px;
 }
 
-.cover__link:hover{
-background-color: rgba(42, 44, 47, 0.8);
+.cover__link:hover {
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (max-width: 1024px){
-    .cover__link{
-   padding:195px 232px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .cover__link{
-   padding:115px 104px;
-    }
-}
-@media screen and (max-width: 475px){
-    .cover__link{
-   padding: 65px 100px;
-    }
-}
-@media screen and (max-width: 420px){
-    .cover__link{
-   padding:70px 80px;
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        padding: 195px 232px;
     }
 }
 
-@media screen and (max-width: 390px){
-    .cover__link{
-   padding: 68px 51px;
-    }
-}
-@media screen and (max-width: 350px){
-    .cover__link{
-   padding: 68px 35px;
-    }
-}
-@media screen and (max-width: 340px){
-    .cover__link{
-   padding: 66px 27px;
+@media screen and (max-width: 768px) {
+    .cover__link {
+        padding: 115px 104px;
     }
 }
 
-@media screen and (max-width: 324px){
-    .cover__link{
-   padding: 35px 18px;
+@media screen and (max-width: 475px) {
+    .cover__link {
+        padding: 65px 100px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover__link {
+        padding: 70px 80px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .cover__link {
+        padding: 68px 51px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cover__link {
+        padding: 68px 35px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .cover__link {
+        padding: 66px 27px;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .cover__link {
+        padding: 35px 18px;
     }
 }
 
 
-@media screen and (max-width: 320px){
-    .cover__link{
-   padding:33px 16px;
+@media screen and (max-width: 320px) {
+    .cover__link {
+        padding: 33px 40px;
     }
 }

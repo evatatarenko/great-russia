@@ -15,19 +15,9 @@
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 42px;
-        line-height: 1.09;
+        line-height: 1.1;
         align-self: end;
-    }
-}
-
-@media screen and (max-width: 673px) {
-    .place__title {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        margin: 0;
-
+        max-width: 330px;
     }
 }
 

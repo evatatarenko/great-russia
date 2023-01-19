@@ -9,8 +9,6 @@
 
 @media screen and (max-width: 673px) {
     .place__img {
-        grid-column-start: 1;
-        grid-column-end: 1;
         grid-row-start: 3;
         grid-row-end: 3;
     }

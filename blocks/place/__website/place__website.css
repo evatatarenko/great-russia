@@ -5,17 +5,10 @@
   row-gap: 12px;
   align-items: flex-end;
   grid-template-rows: 1fr;
-  margin-top: 106px;
 }
 
 .place__website:hover {
   opacity: 0.8;
-}
-
-@media screen and (max-width: 768px) {
-  .place__website {
-    margin-top: 46px;
-  }
 }
 
 @media screen and (max-width: 673px) {
